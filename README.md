@@ -24,11 +24,11 @@ and implemented for PHP 5.3.
  
 ## Kohana API
 
-Jade works just like the standard `View` class, but looks for files with the extension `.jade`
+Jade works just like the standard `View` class, but looks for files in the View directory with the extension `.jade`
 
     $jade = Jade::factory('welcome');
   
-## Public API
+## Public API (NON-Kohana)
 
     $dumper = new PHPDumper();
     $dumper->registerVisitor('tag', new AutotagsVisitor());
