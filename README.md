@@ -21,6 +21,13 @@ and implemented for PHP 5.3.
   - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)
   - [VIM Plugin](http://github.com/vim-scripts/jade.vim.git)
 
+ 
+## Kohana API
+
+Jade works just like the standard `View` class, but looks for files with the extension `.jade`
+
+    $jade = Jade::factory('welcome');
+  
 ## Public API
 
     $dumper = new PHPDumper();
